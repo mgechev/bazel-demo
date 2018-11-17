@@ -3,7 +3,7 @@ import {Parser} from './parser';
 import {Interpreter} from './interpreter';
 
 let program = `
-foo = 42;
+foo = 43;
 print foo;
 `;
 let lexer = new Lexer(program);
