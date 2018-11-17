@@ -1,10 +1,6 @@
 {
   "compilerOptions": {
-    "declaration": false,
     "experimentalDecorators": true,
-    "noImplicitAny": false,
-    "noLib": false,
-    "removeComments": true,
     "strict": true
   }
 }
