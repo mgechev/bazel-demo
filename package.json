@@ -1,0 +1,14 @@
+{
+  "name": "bazel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Minko Gechev <mgechev@google.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noLib": false,
+    "removeComments": true,
+    "strict": true,
+    "target": "es5"
+  }
+}
