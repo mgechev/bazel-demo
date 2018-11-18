@@ -9,7 +9,7 @@ export enum TokenTypes {
 };
 
 export class Token {
-  constructor(public token: TokenTypes, public lexeme: string, public col: number, public row: number) {}
+  constructor(public token: TokenTypes, public lexeme: string|number, public col: number, public row: number) {}
 }
 
 export class Lexer {
@@ -60,7 +60,7 @@ export class Lexer {
   isBlockPar() {
     return /^\{|\}$/.test(this.currentChar());
   }
-  isKeyword(str) {
+  isKeyword(str: string) {
     return /^if|while|print$/.test(str);
   }
   isChar() {

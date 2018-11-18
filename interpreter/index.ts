@@ -6,7 +6,7 @@ import {AST, BinOp, Num, If, While, Assignment, UnaryOp, Print, Identifier} from
 
 export class Interpreter {
   private symbolTable: {[key: string]: Identifier} = {};
-  constructor(private ast: AST) {}
+  constructor(private ast: AST[]) {}
   interpret() {
     return this.visit(this.ast);
   }

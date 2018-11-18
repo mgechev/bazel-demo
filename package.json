@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "@bazel/ibazel": "^0.7.0",
-    "@bazel/typescript": "^0.21.0",
+    "@bazel/typescript": "0.21.0",
     "typescript": "^3.1.6"
   }
 }
