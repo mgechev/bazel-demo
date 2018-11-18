@@ -7,3 +7,4 @@ ts_library(
     srcs = glob(["*.ts"]),
     deps = ["//lexer"],
 )
+

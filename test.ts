@@ -1,13 +1,13 @@
-import {Lexer} from './lexer';
-import {Parser} from './parser';
-import {Interpreter} from './interpreter';
+import {Lexer} from 'lang/lexer';
+import {Parser} from 'lang/parser';
+import {Interpreter} from 'lang/interpreter';
 
-let program = `
+const program = `
 foo = 43;
 print foo;
 `;
-let lexer = new Lexer(program);
-let parser = new Parser(lexer.lex());
-let interpreter = new Interpreter(parser.parseProgram());
+const lexer = new Lexer(program);
+const parser = new Parser(lexer.lex());
+const interpreter = new Interpreter(parser.parseProgram());
 interpreter.interpret();
 

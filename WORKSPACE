@@ -1,3 +1,5 @@
+workspace(name = 'lang')
+
 http_archive(
     name = "build_bazel_rules_typescript",
     url = "https://github.com/bazelbuild/rules_typescript/archive/0.21.0.zip",

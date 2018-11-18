@@ -1,4 +1,4 @@
-import {TokenTypes, Token} from '../lexer';
+import {TokenTypes, Token} from 'lang/lexer';
 /*
 
 # Grammer
