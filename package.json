@@ -1,9 +1,5 @@
 {
   "name": "bazel-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "Minko Gechev <mgechev@google.com>",
   "license": "MIT",
   "devDependencies": {
     "@bazel/bazel": "^0.19.1",

@@ -19,10 +19,6 @@ load("@build_bazel_rules_nodejs//:defs.bzl", "node_repositories", "yarn_install"
 node_repositories()
 
 # Setup Bazel managed npm dependencies with the `yarn_install` rule.
-# The name of this rule should be set to `npm` so that `ts_library` and `ts_web_test_suite`
-# can find your npm dependencies by default in the `@npm` workspace. You may
-# also use the `npm_install` rule with a `package-lock.json` file if you prefer.
-# See https://github.com/bazelbuild/rules_nodejs#dependencies for more info.
 yarn_install(
   name = "npm",
   package_json = "//:package.json",
