@@ -1,6 +1,6 @@
 # Bazel TypeScript Demo
 
-This repository contains the code from my blog post "Building TypeScript with Bazel".
+This repository contains the code from my blog post "[Building TypeScript with Bazel](https://blog.mgechev.com/2018/11/19/introduction-bazel-typescript-tutorial/)".
 
 ## Usage
 
